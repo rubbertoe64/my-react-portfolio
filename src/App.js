@@ -30,6 +30,12 @@ function App() {
           
           
           <Route exact path="/Resume" component={Resume}/>
+
+          <Route path="*" render={() => {
+            return(
+              <Redirect to="/" />
+            )
+          }} />
         </Switch>
        </div>
         
