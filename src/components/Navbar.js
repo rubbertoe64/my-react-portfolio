@@ -7,7 +7,7 @@ function Navbar(){
      return(
           <div className='topnav'>
           <section className='name'>
-              <a href='/About'>Roberto Gonzalez</a>
+              <Link to='/About'>Roberto Gonzalez</Link>
           </section>
           <section className='topnav-right'>
               <Link to='/About'>About me</Link>
