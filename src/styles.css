@@ -1,17 +1,35 @@
 :root {
     --main-color: rgb(4, 136, 136);
+    --main-navbar-height: 50;
+}
+
+
+* {
+  margin: 0;
 }
 
 body {
+  color: white;
   background-color: rgb(65, 65, 65);
+
+}
+a{
+  color: #d4950d;
 }
 
+.main-body{
+  margin: 0 7rem ;
+  word-wrap: break-word;
+  min-height: 80vh;
+  padding-bottom: 70px;
+}
 
 /* Add a black background color to the top navigation */
 .topnav {
     position: relative;
     background-color: var(--main-color);
     overflow: hidden;
+    z-index: 1;
   }
   
   /* Style the links inside the navigation bar */
@@ -21,7 +39,7 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 19px;
   }
   
   /* Change the color of links on hover */
@@ -56,9 +74,33 @@ body {
     font-size: 10px;
 }
 
+.about-text{
+  text-align: center;
+  font-size: 2rem;
+  z-index: 0;
+  
+}
+
+
+.email-textbox{
+  margin-left: 4px;
+}
+
+.message-textbox{
+  height: 60px;
+  width: 250px;
+}
+
+.download{
+  text-align: center;
+  font-size: 50px;
+  
+}
+
+
+
 .footer{
     position: fixed;
-    left: 0;
     bottom: 0;
     width: 100%;
     background-color: var(--main-color);
@@ -77,6 +119,25 @@ body {
     row-gap: 20px;
 }
 
+.footer-github{
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+}
+.footer-github:hover{
+  cursor: pointer;
+}
+
+.footer-linkdin{
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+}
+
+.footer-linkdin:hover{
+  cursor: pointer;
+}
+
 
 
 
@@ -84,7 +145,7 @@ body {
 
   
   /* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 620px) {
     .topnav a, .topnav-right {
       float: none;
       display: block;
@@ -95,5 +156,17 @@ body {
       top: 0;
       left: 0;
       transform: none;
+    }
+
+    .main-body{
+      margin: 0 1rem;
+      height: 80vh;
+    }
+    .about-text{
+      font-size: 1.1rem;
+      
+    }
+    .footer{
+      position: fixed;
     }
   }
