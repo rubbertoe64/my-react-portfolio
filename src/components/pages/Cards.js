@@ -7,7 +7,7 @@ import githubIconLight from "../images/GitHub-Mark-Light-64px.png"
 
 function Cards() {
     return (
-        <div className="card-container ">
+        <div className="card-container w3-animate-top">
             <div className="css-card" id="first-project">
                 <h3 className="card-header">Note Taker</h3>
                 <p>This is my note-taker app! It should be able to create new notes as wel as view older notes or delete them if you want.</p>
