@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-react-portfolio/static/css/main.3c28d404.css",
-    "main.js": "/my-react-portfolio/static/js/main.644eb80a.js",
+    "main.css": "/my-react-portfolio/static/css/main.bce83241.css",
+    "main.js": "/my-react-portfolio/static/js/main.af3f9eaa.js",
     "static/js/787.56d9acf9.chunk.js": "/my-react-portfolio/static/js/787.56d9acf9.chunk.js",
     "static/media/weatherpage.png": "/my-react-portfolio/static/media/weatherpage.574a116f9b7ed1c6a505.png",
     "static/media/ResumewithProjects.pdf": "/my-react-portfolio/static/media/ResumewithProjects.bbfaaa289e9270b7af90.pdf",
@@ -10,12 +10,12 @@
     "static/media/employeetracker.PNG": "/my-react-portfolio/static/media/employeetracker.0c61464651178c9fcd85.PNG",
     "static/media/notetaker.PNG": "/my-react-portfolio/static/media/notetaker.f828a178daefd22d84e1.PNG",
     "index.html": "/my-react-portfolio/index.html",
-    "main.3c28d404.css.map": "/my-react-portfolio/static/css/main.3c28d404.css.map",
-    "main.644eb80a.js.map": "/my-react-portfolio/static/js/main.644eb80a.js.map",
+    "main.bce83241.css.map": "/my-react-portfolio/static/css/main.bce83241.css.map",
+    "main.af3f9eaa.js.map": "/my-react-portfolio/static/js/main.af3f9eaa.js.map",
     "787.56d9acf9.chunk.js.map": "/my-react-portfolio/static/js/787.56d9acf9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c28d404.css",
-    "static/js/main.644eb80a.js"
+    "static/css/main.bce83241.css",
+    "static/js/main.af3f9eaa.js"
   ]
 }
