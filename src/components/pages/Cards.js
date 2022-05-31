@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./cards.css"
-import { Text, Heading, Center, Box,  Stack, SimpleGrid } from "@chakra-ui/react";
+import { Text, Heading, Center, Box,  Stack, SimpleGrid, Image } from "@chakra-ui/react";
+import GithubIconLight from "../images/GitHub-Mark-Light-64px.png"
 import axios from "axios";
 
 
@@ -49,9 +50,10 @@ function Cards() {
                     </h3>
                 </Center>
                 <Center>
-                    <Text color={'gray.500'}>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro beatae commodi quidem tempore, nihil facere nostrum minima delectus iusto veniam perspiciatis exercitationem repellat, voluptatibus odit possimus. Minima libero deserunt tempora ex impedit ducimus ullam fugit maxime excepturi numquam ipsam corporis consequatur laborum vero, doloremque non. Rem eligendi rerum explicabo nam.
-                    </Text>
+                    <SimpleGrid columns={2} spacing={10}>
+                        <Image src={GithubIconLight} />
+                        <Image  w={16} src="https://upload.wikimedia.org/wikipedia/commons/7/71/Earth_icon_2.png"/>
+                    </SimpleGrid>
                 </Center>
                 
             </Stack>
