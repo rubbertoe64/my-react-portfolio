@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./cards.css"
-import githubIcon from "../images/GitHub-Mark-64px.png"
-import githubIconLight from "../images/GitHub-Mark-Light-64px.png"
-import { Button, Text, Heading, Center, Box, useColorModeValue, Image, Stack, Avatar, Grid, SimpleGrid } from "@chakra-ui/react";
+import { Text, Heading, Center, Box,  Stack, SimpleGrid } from "@chakra-ui/react";
 import axios from "axios";
 
 
@@ -41,7 +39,7 @@ function Cards() {
                     </Center>
                     
                 </Box>
-            
+        
             <Stack>
                 <Center>
                     <h3
@@ -50,13 +48,12 @@ function Cards() {
                     {`Repo Create Date: ${new Date(repo.created_at).toLocaleDateString('en-US')}`}
                     </h3>
                 </Center>
+                <Center>
+                    <Text color={'gray.500'}>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro beatae commodi quidem tempore, nihil facere nostrum minima delectus iusto veniam perspiciatis exercitationem repellat, voluptatibus odit possimus. Minima libero deserunt tempora ex impedit ducimus ullam fugit maxime excepturi numquam ipsam corporis consequatur laborum vero, doloremque non. Rem eligendi rerum explicabo nam.
+                    </Text>
+                </Center>
                 
-                <Text color={'gray.500'}>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-                nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-                erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-                et ea rebum.
-                </Text>
             </Stack>
             
             </Box>
@@ -71,15 +68,6 @@ function Cards() {
     )
     
 };
-
-
-
-
-// 1
-function githubIcon1 () {window.open("https://github.com/rubbertoe64/note-taker", "_blank") ;}
-
-function worldIcon1 () {window.open("https://note-taker-api-online.herokuapp.com/", "_blank") ;}
-
 
 
 
