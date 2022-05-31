@@ -2,6 +2,7 @@ import Header from "./components/Header"
 import Footer from "./components/Footer"
 import { BrowserRouter as Router, Route, Switch, Redirect} from 'react-router-dom';
 import { About, Portfolio, Contact, Resume } from "./components/pages"
+import { ChakraProvider } from "@chakra-ui/react";
 import "./styles.css"
 
 
@@ -11,10 +12,11 @@ function App() {
   return (
     <div>
     <Router>
-      
-       <Header />
-       <div className="main-body">
-         <Switch >
+      <ChakraProvider>
+
+        <Header />
+        <div className="main-body">
+          <Switch >
           <Route exact path="/" render={() => {
             return(
               <Redirect to="/About" />
@@ -37,9 +39,12 @@ function App() {
             )
           }} />
         </Switch>
-       </div>
+        </div>
         
-       <Footer />
+        <Footer />
+      </ChakraProvider>
+      
+       
       
     </Router>
     </div>
