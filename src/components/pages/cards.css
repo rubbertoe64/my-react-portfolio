@@ -22,25 +22,12 @@
     background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(0,0,0,0) 100%);
 }
 
-.github-icon{
-    width: 64px;
-    position: relative;
-    left: calc(40% - 64px);
-    top: calc(100px - 64px - 15px);
-    
-}
+
 
 .github-icon:hover {
     cursor: pointer;
 }
 
-.world-icon{
-    width: 64px;
-    position: relative;
-    left: 58%;
-    bottom: 17.5%;
-
-}
 
 .world-icon:hover {
     cursor: pointer;

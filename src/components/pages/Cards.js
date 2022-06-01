@@ -51,8 +51,12 @@ function Cards() {
                 </Center>
                 <Center>
                     <SimpleGrid columns={2} spacing={10}>
-                        <Image src={GithubIconLight} />
-                        <Image  w={16} src="https://upload.wikimedia.org/wikipedia/commons/7/71/Earth_icon_2.png"/>
+                        <Image src={GithubIconLight} className="github-icon" onClick={()=> {
+                            window.open(repo.svn_url)
+                        }} />
+                        <Image  w={16} src="https://upload.wikimedia.org/wikipedia/commons/7/71/Earth_icon_2.png" className="world-icon" onClick={() => {
+                            window.open(repo.homepage)
+                        }}/>
                     </SimpleGrid>
                 </Center>
                 
